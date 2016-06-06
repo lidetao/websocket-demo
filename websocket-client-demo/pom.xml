@@ -11,5 +11,23 @@
 
 	<artifactId>websocket-client-demo</artifactId>
 
+	<dependencies>
+
+		<!-- tomcat websocket-api -->
+		<dependency>
+			<groupId>javax.websocket</groupId>
+			<artifactId>javax.websocket-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<!-- tomcat websocket-api -->
+
+		<!-- tomcat websocket baselib -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-websocket</artifactId>
+		</dependency>
+		<!-- //tomcat websocket baselib -->
+
+	</dependencies>
 
 </project>

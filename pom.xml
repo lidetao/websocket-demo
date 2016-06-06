@@ -15,4 +15,48 @@
 		<module>websocket-server-demo</module>
 	</modules>
 
+	<!-- dependencies for extends -->
+	<dependencyManagement>
+		<dependencies>
+
+			<!-- tomcat websocket-api -->
+			<dependency>
+				<groupId>javax.websocket</groupId>
+				<artifactId>javax.websocket-api</artifactId>
+				<version>1.1</version>
+			</dependency>
+			<!-- tomcat websocket-api -->
+
+			<!-- tomcat websocket baselib -->
+			<dependency>
+				<groupId>org.apache.tomcat</groupId>
+				<artifactId>tomcat-websocket</artifactId>
+				<version>9.0.0.M6</version>
+			</dependency>
+			<!-- //tomcat websocket baselib -->
+
+		</dependencies>
+	</dependencyManagement>
+	<!-- //dependencies for extends -->
+
+	<build>
+
+		<!-- plugins for extends -->
+		<pluginManagement>
+			<plugins>
+
+				<!-- apache tomcat maven plugin -->
+				<plugin>
+					<groupId>org.apache.tomcat.maven</groupId>
+					<artifactId>tomcat7-maven-plugin</artifactId>
+					<version>2.2</version>
+				</plugin>
+				<!-- //apache tomcat maven plugin -->
+
+			</plugins>
+		</pluginManagement>
+		<!-- plugins for extends -->
+
+	</build>
+
 </project>
