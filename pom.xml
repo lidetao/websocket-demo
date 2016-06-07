@@ -37,6 +37,14 @@
 		<pluginManagement>
 			<plugins>
 
+				<!-- compiler plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.5.1</version>
+				</plugin>
+				<!-- //compiler plugin -->
+
 				<!-- apache tomcat maven plugin -->
 				<plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
@@ -44,6 +52,8 @@
 					<version>2.2</version>
 				</plugin>
 				<!-- //apache tomcat maven plugin -->
+
+
 
 			</plugins>
 		</pluginManagement>
