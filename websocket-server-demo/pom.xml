@@ -36,15 +36,8 @@
 				<configuration>
 					<uriEncoding>UTF-8</uriEncoding>
 					<port>8082</port>
-					<path>/wsApi</path>
+					<path>/websocket-server</path>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.tomcat</groupId>
-						<artifactId>tomcat-websocket</artifactId>
-						<version>9.0.0.M6</version>
-					</dependency>
-				</dependencies>
 			</plugin>
 			<!-- //apache tomcat maven plugin -->
 

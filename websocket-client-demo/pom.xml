@@ -21,13 +21,6 @@
 		</dependency>
 		<!-- tomcat websocket-api -->
 
-		<!-- tomcat websocket baselib -->
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>tomcat-websocket</artifactId>
-		</dependency>
-		<!-- //tomcat websocket baselib -->
-
 	</dependencies>
 
 </project>

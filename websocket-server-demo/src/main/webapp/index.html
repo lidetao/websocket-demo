@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>html5 websocket</title>
+</head>
+<body>
+	<h1>html5 websocket</h1>
+	<script type="text/javascript">
+		//websocket server URIs
+		var uri = "ws://localhost:8082/websocket-server/wsApi/test";
+
+		//create websocket
+		var ws = new WebSocket(uri);
+
+		//open a websocket and send message
+		ws.onopen = function(ev) {
+			ws.send("hello,first websocket");
+		};
+
+		//receive a message and close it
+		ws.onmessage = function(ev) {
+			console.log(ev.data);
+			ws.close();
+		};
+
+		//error
+		ws.onerror = function(ev) {
+			console.log("error");
+		};
+
+		//close this websocket
+		ws.onclose = function(ev) {
+			console.log("close");
+		}
+	</script>
+</body>
+</html>

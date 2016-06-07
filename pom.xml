@@ -27,14 +27,6 @@
 			</dependency>
 			<!-- tomcat websocket-api -->
 
-			<!-- tomcat websocket baselib -->
-			<dependency>
-				<groupId>org.apache.tomcat</groupId>
-				<artifactId>tomcat-websocket</artifactId>
-				<version>9.0.0.M6</version>
-			</dependency>
-			<!-- //tomcat websocket baselib -->
-
 		</dependencies>
 	</dependencyManagement>
 	<!-- //dependencies for extends -->
