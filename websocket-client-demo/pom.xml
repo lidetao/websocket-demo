@@ -34,13 +34,6 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>tomcat-websocket</artifactId>
-			<version>8.0.35</version>
-		</dependency>
-
-
 	</dependencies>
 
 	<build>
